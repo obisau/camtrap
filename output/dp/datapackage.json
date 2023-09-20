@@ -1,0 +1,1386 @@
+{
+    "resources": [
+        {
+            "name": "deployments",
+            "path": "deployments.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0-rc.1/deployments-table-schema.json"
+          },
+          {
+            "name": "media",
+            "path": "media.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0-rc.1/media-table-schema.json"
+          },
+          {
+            "name": "observations",
+            "path": "observations.csv",
+            "profile": "tabular-data-resource",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": "https://raw.githubusercontent.com/tdwg/camtrap-dp/1.0-rc.1/observations-table-schema.json"
+          }
+    ],
+    "profile": "https://raw.githubusercontent.com/tdwg/camtrap-dp/0.6/camtrap-dp-profile.json",
+    "name": "globalarchive_ningaloo_d3_bruvs",
+    "id": "",
+    "created": "2023-03-23T11:23:03Z",
+    "title": "BRUVS observations at Ningloo Marine Park, Western Australia (2019)",
+    "contributors": [
+        {
+            "title": "Tim Langlois",
+            "email": "tim.langlois@uwa.edu.au",
+            "role": "principalInvestigator",
+            "organization": "University of Western Australia (UWA)"
+        },
+        {
+            "title": "John Keesing",
+            "email": "john.keesing@csiro.au",
+            "path": "https://orcid.org/0000-0002-0876-2144",
+            "role": "principalInvestigator",
+            "organization": "CSIRO Oceans and Atmosphere"
+        },
+        {
+            "title": "OBIS Australia Node manager",
+            "email": "obisau@csiro.au",
+            "path": "http://www.obis.org.au",
+            "role": "publisher",
+            "organization": "CSIRO National Collections and Marine Infrastructure Data Centre"
+        }
+    ],
+    "description": "This dataset is BRUVS data from 5 surveys at the Ningaloo Reef, Western Australia in 2019. It is part of the Marine Biodiversity Hub D3 project (https://www.nespmarine.edu.au/project/project-d3-implementing-monitoring-amps-and-status-marine-biodiversity-assets-continental) and has been downloaded from GlobalArchive (https://globalarchive.org/geodata/data/project/get/254) in January 2021. Video and images from the 5 BRUV trips are available at the CSIRO Data Access Portal. See Keesing, John; Langlois, Tim (2021): August 2019 Ningaloo DMR BRUV field trip - part 1of 3. v2. CSIRO. Data Collection. https://doi.org/10.25919/b9r3-x356 and the links to related dataset records. GlobalArchive is an online centralised repository of fish image annotation, stereo calibration and associated information that provides the ability to upload data with flexible file formats. It is designed to receive standardised datatable formats directly from EventMeasure (EM) software or from any other image annotation records or historical data sets and provides the ability to explore, query and share this data with other users across different projects and institutions. GlobalArchive is designed for working with annotation data that has already been generated via external sources. It solves the problem of data synthesis providing a centralised repository to work with and query the data, and also provides advanced sharing capability to allow for synthesis and collaboration between users and organisations. GlobalArchive was conceived by Timothy Langlois at the University of Western Australia and brought to life by Ariell Friedman at Greybits Engineering in Sydney.",
+    "version": "1.8",
+    "keywords": [
+        "camera traps",
+        "bruvs",
+        "Samplingevent"
+    ],
+    "image": "",
+    "homepage": "",
+    "sources": [],
+    "licenses": [
+        {
+            "name": "CC0-1.0",
+            "scope": "data"
+        },
+        {
+            "name": "CC0-1.0",
+            "scope": "media"
+        }
+    ],
+    "bibliographicCitation": "Keesing, John; Langlois, Tim (2021): August 2019 Ningaloo DMR BRUV field trip - part 1of 3. v2. CSIRO. Data Collection. https://doi.org/10.25919/b9r3-x356",
+    "project": {
+        "id": "",
+        "title": "2016 NESP Marine Biodiversity Hub Project D3 - Evaluating and monitoring the status of marine biodiversity assets on the continental shelf MBH",
+        "description": "Rocky reefs are an important habitat on the continental shelf and subject to multiple pressures. Their high productivity and biodiversity values has led them to be identified as Key Ecological Features within the Commonwealth marine bioregional planning framework. The vast majority are unmapped and knowledge of their biology or representation within the CMR network is limited. This project will collate all existing mapping of cross-shelf habitats, allowing major gaps to be identified to prioritise future research in subsequent stages. This knowledge will inform a range of on-ground work, including management of Commonwealth assets via marine regional plans, CMRs, and fisheries.",
+        "samplingDesign": "targeted",
+        "captureMethod": [
+            "motionDetection"
+        ],
+        "individualAnimals": false,
+        "eventInterval": 60
+    },
+    "spatial": {
+        "type": "Feature",
+        "bbox": [
+            -21.67,
+            113.48,
+            -22.85,
+            114.1
+        ],
+        "properties": {},
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        113.48,
+                        -21.67
+                    ],
+                    [
+                        114.1,
+                        -21.67
+                    ],
+                    [
+                        114.1,
+                        -22.85
+                    ],
+                    [
+                        113.48,
+                        -22.85
+                    ],
+                    [
+                        113.48,
+                        -21.67
+                    ]
+                ]
+            ]
+        }
+    },
+    "temporal": {
+        "start": "2019-08-11",
+        "end": "2019-08-11"
+    },
+    "taxonomic": [
+        {
+            "family": "Labridae",
+            "genus": "Coris",
+            "species": "caudimacula",
+            "scientificName": "Coris caudimacula",
+            "taxonRank": "species",
+            "taxonID": 37384092,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384092"
+        },
+        {
+            "family": "Pinguipedidae",
+            "genus": "Parapercis",
+            "species": "nebulosa",
+            "scientificName": "Parapercis nebulosa",
+            "taxonRank": "species",
+            "taxonID": 37390005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37390005"
+        },
+        {
+            "family": "Nemipteridae",
+            "genus": "Pentapodus",
+            "species": "nagasakiensis",
+            "scientificName": "Pentapodus nagasakiensis",
+            "taxonRank": "species",
+            "taxonID": 37347012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37347012"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Carangoides",
+            "species": "chrysophrys",
+            "scientificName": "Carangoides chrysophrys",
+            "taxonRank": "species",
+            "taxonID": 37337011,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337011"
+        },
+        {
+            "family": "Sparidae",
+            "genus": "Argyrops",
+            "species": "spinifer",
+            "scientificName": "Argyrops spinifer",
+            "taxonRank": "species",
+            "taxonID": 37353006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37353006"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Gnathanodon",
+            "species": "speciosus",
+            "scientificName": "Gnathanodon speciosus",
+            "taxonRank": "species",
+            "taxonID": 37337012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337012"
+        },
+        {
+            "family": "Synodontidae",
+            "genus": "Saurida",
+            "species": "undosquamis",
+            "scientificName": "Saurida undosquamis",
+            "taxonRank": "species",
+            "taxonID": 37118001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37118001"
+        },
+        {
+            "family": "Balistidae",
+            "genus": "Abalistes",
+            "species": "stellatus",
+            "scientificName": "Abalistes stellatus",
+            "taxonRank": "species",
+            "taxonID": 37465011,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465011"
+        },
+        {
+            "family": "Tetraodontidae",
+            "genus": "Lagocephalus",
+            "species": "sceleratus",
+            "scientificName": "Lagocephalus sceleratus",
+            "taxonRank": "species",
+            "taxonID": 37467007,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37467007"
+        },
+        {
+            "family": "Microdesmidae",
+            "genus": "Gunnellichthys",
+            "species": "monostigma",
+            "scientificName": "Gunnellichthys monostigma",
+            "taxonRank": "species",
+            "taxonID": 37435004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37435004"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Pristipomoides",
+            "species": "multidens",
+            "scientificName": "Pristipomoides multidens",
+            "taxonRank": "species",
+            "taxonID": 37346002,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346002"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Gymnocranius",
+            "species": "grandoculis",
+            "scientificName": "Gymnocranius grandoculis",
+            "taxonRank": "species",
+            "taxonID": 37351005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351005"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Lethrinus",
+            "species": "miniatus",
+            "scientificName": "Lethrinus miniatus",
+            "taxonRank": "species",
+            "taxonID": 37351009,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351009"
+        },
+        {
+            "family": "Echeneidae",
+            "genus": "Echeneis",
+            "species": "naucrates",
+            "scientificName": "Echeneis naucrates",
+            "taxonRank": "species",
+            "taxonID": 37336001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37336001"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Pristipomoides",
+            "species": "filamentosus",
+            "scientificName": "Pristipomoides filamentosus",
+            "taxonRank": "species",
+            "taxonID": 37346032,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346032"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Lethrinus",
+            "species": "rubrioperculatus",
+            "scientificName": "Lethrinus rubrioperculatus",
+            "taxonRank": "species",
+            "taxonID": 37351012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351012"
+        },
+        {
+            "family": "Mullidae",
+            "genus": "Parupeneus",
+            "species": "spilurus",
+            "scientificName": "Parupeneus spilurus",
+            "taxonRank": "species",
+            "taxonID": 37355015,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37355015"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Seriola",
+            "species": "dumerili",
+            "scientificName": "Seriola dumerili",
+            "taxonRank": "species",
+            "taxonID": 37337025,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337025"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Seriola",
+            "species": "rivoliana",
+            "scientificName": "Seriola rivoliana",
+            "taxonRank": "species",
+            "taxonID": 37337052,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337052"
+        },
+        {
+            "family": "Balistidae",
+            "genus": "Abalistes",
+            "species": "filamentosus",
+            "scientificName": "Abalistes filamentosus",
+            "taxonRank": "species",
+            "taxonID": 37465089,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465089"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Epinephelus",
+            "species": "areolatus",
+            "scientificName": "Epinephelus areolatus",
+            "taxonRank": "species",
+            "taxonID": 37311009,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311009"
+        },
+        {
+            "family": "Triakidae",
+            "genus": "Mustelus",
+            "species": "ravidus",
+            "scientificName": "Mustelus ravidus",
+            "taxonRank": "species",
+            "taxonID": 37017005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37017005"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Bodianus",
+            "species": "solatus",
+            "scientificName": "Bodianus solatus",
+            "taxonRank": "species",
+            "taxonID": 37384201,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384201"
+        },
+        {
+            "family": "Rachycentridae",
+            "genus": "Rachycentron",
+            "species": "canadum",
+            "scientificName": "Rachycentron canadum",
+            "taxonRank": "species",
+            "taxonID": 37335001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37335001"
+        },
+        {
+            "family": "Scombridae",
+            "genus": "Scomberomorus",
+            "species": "commerson",
+            "scientificName": "Scomberomorus commerson",
+            "taxonRank": "species",
+            "taxonID": 37441007,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37441007"
+        },
+        {
+            "family": "Scaridae",
+            "genus": "Scarus",
+            "species": "ghobban",
+            "scientificName": "Scarus ghobban",
+            "taxonRank": "species",
+            "taxonID": 37386001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37386001"
+        },
+        {
+            "family": "Tetraodontidae",
+            "genus": "Lagocephalus",
+            "species": "lunaris",
+            "scientificName": "Lagocephalus lunaris",
+            "taxonRank": "species",
+            "taxonID": 37467012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37467012"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Carcharhinus",
+            "species": "plumbeus",
+            "scientificName": "Carcharhinus plumbeus",
+            "taxonRank": "species",
+            "taxonID": 37018007,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018007"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Gymnocranius",
+            "species": "euanus",
+            "scientificName": "Gymnocranius euanus",
+            "taxonRank": "species",
+            "taxonID": 37351022,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351022"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Lutjanus",
+            "species": "sebae",
+            "scientificName": "Lutjanus sebae",
+            "taxonRank": "species",
+            "taxonID": 37346004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346004"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Pristipomoides",
+            "species": "typus",
+            "scientificName": "Pristipomoides typus",
+            "taxonRank": "species",
+            "taxonID": 37346019,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346019"
+        },
+        {
+            "family": "Monacanthidae",
+            "genus": "Eubalichthys",
+            "species": "caeruleoguttatus",
+            "scientificName": "Eubalichthys caeruleoguttatus",
+            "taxonRank": "species",
+            "taxonID": 37465018,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465018"
+        },
+        {
+            "family": "Sphyrnidae",
+            "genus": "Sphyrna",
+            "species": "mokarran",
+            "scientificName": "Sphyrna mokarran",
+            "taxonRank": "species",
+            "taxonID": 37019002,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37019002"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Carangoides",
+            "species": "gymnostethus",
+            "scientificName": "Carangoides gymnostethus",
+            "taxonRank": "species",
+            "taxonID": 37337022,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337022"
+        },
+        {
+            "family": "Congridae",
+            "genus": "Heteroconger",
+            "species": "hassi",
+            "scientificName": "Heteroconger hassi",
+            "taxonRank": "species",
+            "taxonID": 37067017,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37067017"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Lethrinus",
+            "species": "nebulosus",
+            "scientificName": "Lethrinus nebulosus",
+            "taxonRank": "species",
+            "taxonID": 37351008,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351008"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Carangoides",
+            "species": "fulvoguttatus",
+            "scientificName": "Carangoides fulvoguttatus",
+            "taxonRank": "species",
+            "taxonID": 37337037,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337037"
+        },
+        {
+            "family": "Mullidae",
+            "genus": "Parupeneus",
+            "species": "heptacanthus",
+            "scientificName": "Parupeneus heptacanthus",
+            "taxonRank": "species",
+            "taxonID": 37355004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37355004"
+        },
+        {
+            "family": "Triakidae",
+            "genus": "Hemitriakis",
+            "species": "falcata",
+            "scientificName": "Hemitriakis falcata",
+            "taxonRank": "species",
+            "taxonID": 37017009,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37017009"
+        },
+        {
+            "family": "Haemulidae",
+            "genus": "Diagramma",
+            "species": "labiosum",
+            "scientificName": "Diagramma labiosum",
+            "taxonRank": "species",
+            "taxonID": 37350003,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37350003"
+        },
+        {
+            "family": "Priacanthidae",
+            "genus": "Priacanthus",
+            "species": "blochii",
+            "scientificName": "Priacanthus blochii",
+            "taxonRank": "species",
+            "taxonID": 37326012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37326012"
+        },
+        {
+            "family": "Sphyraenidae",
+            "genus": "Sphyraena",
+            "species": "qenie",
+            "scientificName": "Sphyraena qenie",
+            "taxonRank": "species",
+            "taxonID": 37382009,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37382009"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Epinephelus",
+            "species": "rivulatus",
+            "scientificName": "Epinephelus rivulatus",
+            "taxonRank": "species",
+            "taxonID": 37311022,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311022"
+        },
+        {
+            "family": "Fistulariidae",
+            "genus": "Fistularia",
+            "species": "commersonii",
+            "scientificName": "Fistularia commersonii",
+            "taxonRank": "species",
+            "taxonID": 37278001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37278001"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Aphareus",
+            "species": "furca",
+            "scientificName": "Aphareus furca",
+            "taxonRank": "species",
+            "taxonID": 37346036,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346036"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Choerodon",
+            "species": "zamboangae",
+            "scientificName": "Choerodon zamboangae",
+            "taxonRank": "species",
+            "taxonID": 37384011,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384011"
+        },
+        {
+            "family": "Nemipteridae",
+            "genus": "Parascolopsis",
+            "species": "eriomma",
+            "scientificName": "Parascolopsis eriomma",
+            "taxonRank": "species",
+            "taxonID": 37347015,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37347015"
+        },
+        {
+            "family": "Nemipteridae",
+            "genus": "Parascolopsis",
+            "species": "inermis",
+            "scientificName": "Parascolopsis inermis",
+            "taxonRank": "species",
+            "taxonID": 37347041,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37347041"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Gymnocranius",
+            "species": "griseus",
+            "scientificName": "Gymnocranius griseus",
+            "taxonRank": "species",
+            "taxonID": 37351003,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351003"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Pseudanthias",
+            "species": "georgei",
+            "scientificName": "Pseudanthias georgei",
+            "taxonRank": "species",
+            "taxonID": 37311093,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311093"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Carangoides",
+            "species": "caeruleopinnatus",
+            "scientificName": "Carangoides caeruleopinnatus",
+            "taxonRank": "species",
+            "taxonID": 37337021,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337021"
+        },
+        {
+            "family": "Muraenidae",
+            "genus": "Gymnothorax",
+            "species": "undulatus",
+            "scientificName": "Gymnothorax undulatus",
+            "taxonRank": "species",
+            "taxonID": 37060053,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37060053"
+        },
+        {
+            "family": "Monacanthidae",
+            "genus": "Nelusetta",
+            "species": "ayraud",
+            "scientificName": "Nelusetta ayraud",
+            "taxonRank": "species",
+            "taxonID": 37465006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465006"
+        },
+        {
+            "family": "Monacanthidae",
+            "genus": "Aluterus",
+            "species": "monoceros",
+            "scientificName": "Aluterus monoceros",
+            "taxonRank": "species",
+            "taxonID": 37465022,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465022"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Seriolina",
+            "species": "nigrofasciata",
+            "scientificName": "Seriolina nigrofasciata",
+            "taxonRank": "species",
+            "taxonID": 37337014,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337014"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Carcharhinus",
+            "species": "albimarginatus",
+            "scientificName": "Carcharhinus albimarginatus",
+            "taxonRank": "species",
+            "taxonID": 37018027,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018027"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Carcharhinus",
+            "species": "limbatus",
+            "scientificName": "Carcharhinus limbatus",
+            "taxonRank": "species",
+            "taxonID": 37018039,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018039"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Carangoides",
+            "species": "equula",
+            "scientificName": "Carangoides equula",
+            "taxonRank": "species",
+            "taxonID": 37337013,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337013"
+        },
+        {
+            "family": "Balistidae",
+            "genus": "Sufflamen",
+            "species": "fraenatum",
+            "scientificName": "Sufflamen fraenatum",
+            "taxonRank": "species",
+            "taxonID": 37465014,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465014"
+        },
+        {
+            "family": "Pomacanthidae",
+            "genus": "Chaetodontoplus",
+            "species": "personifer",
+            "scientificName": "Chaetodontoplus personifer",
+            "taxonRank": "species",
+            "taxonID": 37365008,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365008"
+        },
+        {
+            "family": "Chaetodontidae",
+            "genus": "Coradion",
+            "species": "chrysozonus",
+            "scientificName": "Coradion chrysozonus",
+            "taxonRank": "species",
+            "taxonID": 37365004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365004"
+        },
+        {
+            "family": "Pteroidae",
+            "genus": "Pterois",
+            "species": "volitans",
+            "scientificName": "Pterois volitans",
+            "taxonRank": "species",
+            "taxonID": 37287040,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37287040"
+        },
+        {
+            "family": "Cirrhitidae",
+            "genus": "Cyprinocirrhites",
+            "species": "polyactis",
+            "scientificName": "Cyprinocirrhites polyactis",
+            "taxonRank": "species",
+            "taxonID": 37374006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37374006"
+        },
+        {
+            "family": "Caesionidae",
+            "genus": "Pterocaesio",
+            "species": "digramma",
+            "scientificName": "Pterocaesio digramma",
+            "taxonRank": "species",
+            "taxonID": 37346050,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346050"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Lutjanus",
+            "species": "vitta",
+            "scientificName": "Lutjanus vitta",
+            "taxonRank": "species",
+            "taxonID": 37346003,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346003"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Lutjanus",
+            "species": "gibbus",
+            "scientificName": "Lutjanus gibbus",
+            "taxonRank": "species",
+            "taxonID": 37346028,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346028"
+        },
+        {
+            "family": "Mullidae",
+            "genus": "Parupeneus",
+            "species": "chrysopleuron",
+            "scientificName": "Parupeneus chrysopleuron",
+            "taxonRank": "species",
+            "taxonID": 37355016,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37355016"
+        },
+        {
+            "family": "Chaetodontidae",
+            "genus": "Chaetodon",
+            "species": "assarius",
+            "scientificName": "Chaetodon assarius",
+            "taxonRank": "species",
+            "taxonID": 37365012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365012"
+        },
+        {
+            "family": "Balistidae",
+            "genus": "Xanthichthys",
+            "species": "lineopunctatus",
+            "scientificName": "Xanthichthys lineopunctatus",
+            "taxonRank": "species",
+            "taxonID": 37465016,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465016"
+        },
+        {
+            "family": "Monacanthidae",
+            "genus": "Paramonacanthus",
+            "species": "choirocephalus",
+            "scientificName": "Paramonacanthus choirocephalus",
+            "taxonRank": "species",
+            "taxonID": 37465064,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465064"
+        },
+        {
+            "family": "Veliferidae",
+            "genus": "Velifer",
+            "species": "hypselopterus",
+            "scientificName": "Velifer hypselopterus",
+            "taxonRank": "species",
+            "taxonID": 37269002,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37269002"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Epinephelus",
+            "species": "multinotatus",
+            "scientificName": "Epinephelus multinotatus",
+            "taxonRank": "species",
+            "taxonID": 37311010,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311010"
+        },
+        {
+            "family": "Tetraodontidae",
+            "genus": "Canthigaster",
+            "species": "rivulata",
+            "scientificName": "Canthigaster rivulata",
+            "taxonRank": "species",
+            "taxonID": 37467018,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37467018"
+        },
+        {
+            "family": "Caesionidae",
+            "genus": "Caesio",
+            "species": "teres",
+            "scientificName": "Caesio teres",
+            "taxonRank": "species",
+            "taxonID": 37346037,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346037"
+        },
+        {
+            "family": "Pomacentridae",
+            "genus": "Pristotis",
+            "species": "obtusirostris",
+            "scientificName": "Pristotis obtusirostris",
+            "taxonRank": "species",
+            "taxonID": 37372001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37372001"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Lethrinus",
+            "species": "ravus",
+            "scientificName": "Lethrinus ravus",
+            "taxonRank": "species",
+            "taxonID": 37351031,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351031"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Suezichthys",
+            "species": "cyanolaemus",
+            "scientificName": "Suezichthys cyanolaemus",
+            "taxonRank": "species",
+            "taxonID": 37384161,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384161"
+        },
+        {
+            "family": "Balistidae",
+            "genus": "Pseudobalistes",
+            "species": "flavimarginatus",
+            "scientificName": "Pseudobalistes flavimarginatus",
+            "taxonRank": "species",
+            "taxonID": 37465071,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465071"
+        },
+        {
+            "family": "Pomacanthidae",
+            "genus": "Genicanthus",
+            "species": "lamarck",
+            "scientificName": "Genicanthus lamarck",
+            "taxonRank": "species",
+            "taxonID": 37365070,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365070"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Epinephelus",
+            "species": "tukula",
+            "scientificName": "Epinephelus tukula",
+            "taxonRank": "species",
+            "taxonID": 37311068,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311068"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Labroides",
+            "species": "dimidiatus",
+            "scientificName": "Labroides dimidiatus",
+            "taxonRank": "species",
+            "taxonID": 37384028,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384028"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Galeocerdo",
+            "species": "cuvier",
+            "scientificName": "Galeocerdo cuvier",
+            "taxonRank": "species",
+            "taxonID": 37018022,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018022"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Bodianus",
+            "species": "bilunulatus",
+            "scientificName": "Bodianus bilunulatus",
+            "taxonRank": "species",
+            "taxonID": 37384054,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384054"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Variola",
+            "species": "louti",
+            "scientificName": "Variola louti",
+            "taxonRank": "species",
+            "taxonID": 37311166,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311166"
+        },
+        {
+            "family": "Mullidae",
+            "genus": "Parupeneus",
+            "species": "cyclostomus",
+            "scientificName": "Parupeneus cyclostomus",
+            "taxonRank": "species",
+            "taxonID": 37355025,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37355025"
+        },
+        {
+            "family": "Pomacanthidae",
+            "genus": "Pomacanthus",
+            "species": "semicirculatus",
+            "scientificName": "Pomacanthus semicirculatus",
+            "taxonRank": "species",
+            "taxonID": 37365080,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365080"
+        },
+        {
+            "family": "Mullidae",
+            "genus": "Parupeneus",
+            "species": "indicus",
+            "scientificName": "Parupeneus indicus",
+            "taxonRank": "species",
+            "taxonID": 37355005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37355005"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Lethrinus",
+            "species": "olivaceus",
+            "scientificName": "Lethrinus olivaceus",
+            "taxonRank": "species",
+            "taxonID": 37351004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351004"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Aprion",
+            "species": "virescens",
+            "scientificName": "Aprion virescens",
+            "taxonRank": "species",
+            "taxonID": 37346027,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346027"
+        },
+        {
+            "family": "Malacanthidae",
+            "genus": "Malacanthus",
+            "species": "brevirostris",
+            "scientificName": "Malacanthus brevirostris",
+            "taxonRank": "species",
+            "taxonID": 37331009,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37331009"
+        },
+        {
+            "family": "Lethrinidae",
+            "genus": "Lethrinus",
+            "species": "punctulatus",
+            "scientificName": "Lethrinus punctulatus",
+            "taxonRank": "species",
+            "taxonID": 37351001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37351001"
+        },
+        {
+            "family": "Balistidae",
+            "genus": "Pseudobalistes",
+            "species": "fuscus",
+            "scientificName": "Pseudobalistes fuscus",
+            "taxonRank": "species",
+            "taxonID": 37465027,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37465027"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Loxodon",
+            "species": "macrorhinus",
+            "scientificName": "Loxodon macrorhinus",
+            "taxonRank": "species",
+            "taxonID": 37018005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018005"
+        },
+        {
+            "family": "Priacanthidae",
+            "genus": "Priacanthus",
+            "species": "hamrur",
+            "scientificName": "Priacanthus hamrur",
+            "taxonRank": "species",
+            "taxonID": 37326005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37326005"
+        },
+        {
+            "family": "Sparidae",
+            "genus": "Dentex",
+            "species": "carpenteri",
+            "scientificName": "Dentex carpenteri",
+            "taxonRank": "species",
+            "taxonID": 37353018,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37353018"
+        },
+        {
+            "family": "Muraenidae",
+            "genus": "Gymnothorax",
+            "species": "thrysoideus",
+            "scientificName": "Gymnothorax thrysoideus",
+            "taxonRank": "species",
+            "taxonID": 37060010,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37060010"
+        },
+        {
+            "family": "Acanthuridae",
+            "genus": "Acanthurus",
+            "species": "grammoptilus",
+            "scientificName": "Acanthurus grammoptilus",
+            "taxonRank": "species",
+            "taxonID": 37437002,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37437002"
+        },
+        {
+            "family": "Triakidae",
+            "genus": "Hypogaleus",
+            "species": "hyugaensis",
+            "scientificName": "Hypogaleus hyugaensis",
+            "taxonRank": "species",
+            "taxonID": 37017006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37017006"
+        },
+        {
+            "family": "Ariidae",
+            "genus": "Netuma",
+            "species": "thalassina",
+            "scientificName": "Netuma thalassina",
+            "taxonRank": "species",
+            "taxonID": 37188001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37188001"
+        },
+        {
+            "family": "Acanthuridae",
+            "genus": "Naso",
+            "species": "hexacanthus",
+            "scientificName": "Naso hexacanthus",
+            "taxonRank": "species",
+            "taxonID": 37437028,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37437028"
+        },
+        {
+            "family": "Apogonidae",
+            "genus": "Cheilodipterus",
+            "species": "quinquelineatus",
+            "scientificName": "Cheilodipterus quinquelineatus",
+            "taxonRank": "species",
+            "taxonID": 37327090,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37327090"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Lutjanus",
+            "species": "quinquelineatus",
+            "scientificName": "Lutjanus quinquelineatus",
+            "taxonRank": "species",
+            "taxonID": 37346006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346006"
+        },
+        {
+            "family": "Acanthuridae",
+            "genus": "Acanthurus",
+            "species": "mata",
+            "scientificName": "Acanthurus mata",
+            "taxonRank": "species",
+            "taxonID": 37437011,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37437011"
+        },
+        {
+            "family": "Caesionidae",
+            "genus": "Pterocaesio",
+            "species": "chrysozona",
+            "scientificName": "Pterocaesio chrysozona",
+            "taxonRank": "species",
+            "taxonID": 37346009,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346009"
+        },
+        {
+            "family": "Chaetodontidae",
+            "genus": "Heniochus",
+            "species": "diphreutes",
+            "scientificName": "Heniochus diphreutes",
+            "taxonRank": "species",
+            "taxonID": 37365005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365005"
+        },
+        {
+            "family": "Holocentridae",
+            "genus": "Myripristis",
+            "species": "botche",
+            "scientificName": "Myripristis botche",
+            "taxonRank": "species",
+            "taxonID": 37261004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37261004"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Cephalopholis",
+            "species": "sonnerati",
+            "scientificName": "Cephalopholis sonnerati",
+            "taxonRank": "species",
+            "taxonID": 37311045,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311045"
+        },
+        {
+            "family": "Nemipteridae",
+            "genus": "Scolopsis",
+            "species": "affinis",
+            "scientificName": "Scolopsis affinis",
+            "taxonRank": "species",
+            "taxonID": 37347030,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37347030"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Pseudanthias",
+            "species": "cooperi",
+            "scientificName": "Pseudanthias cooperi",
+            "taxonRank": "species",
+            "taxonID": 37311113,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311113"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Rhizoprionodon",
+            "species": "acutus",
+            "scientificName": "Rhizoprionodon acutus",
+            "taxonRank": "species",
+            "taxonID": 37018006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018006"
+        },
+        {
+            "family": "Apogonidae",
+            "genus": "Ostorhinchus",
+            "species": "fasciatus",
+            "scientificName": "Ostorhinchus fasciatus",
+            "taxonRank": "species",
+            "taxonID": 37327158,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37327158"
+        },
+        {
+            "family": "Lutjanidae",
+            "genus": "Symphorus",
+            "species": "nematophorus",
+            "scientificName": "Symphorus nematophorus",
+            "taxonRank": "species",
+            "taxonID": 37346017,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346017"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Cephalopholis",
+            "species": "spiloparaea",
+            "scientificName": "Cephalopholis spiloparaea",
+            "taxonRank": "species",
+            "taxonID": 37311141,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311141"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Caranx",
+            "species": "ignobilis",
+            "scientificName": "Caranx ignobilis",
+            "taxonRank": "species",
+            "taxonID": 37337027,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337027"
+        },
+        {
+            "family": "Chaetodontidae",
+            "genus": "Heniochus",
+            "species": "acuminatus",
+            "scientificName": "Heniochus acuminatus",
+            "taxonRank": "species",
+            "taxonID": 37365011,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365011"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Choerodon",
+            "species": "jordani",
+            "scientificName": "Choerodon jordani",
+            "taxonRank": "species",
+            "taxonID": 37384077,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384077"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Triaenodon",
+            "species": "obesus",
+            "scientificName": "Triaenodon obesus",
+            "taxonRank": "species",
+            "taxonID": 37018038,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018038"
+        },
+        {
+            "family": "Pomacanthidae",
+            "genus": "Pomacanthus",
+            "species": "imperator",
+            "scientificName": "Pomacanthus imperator",
+            "taxonRank": "species",
+            "taxonID": 37365014,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365014"
+        },
+        {
+            "family": "Carangidae",
+            "genus": "Caranx",
+            "species": "papuensis",
+            "scientificName": "Caranx papuensis",
+            "taxonRank": "species",
+            "taxonID": 37337064,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37337064"
+        },
+        {
+            "family": "Sphyrnidae",
+            "genus": "Sphyrna",
+            "species": "lewini",
+            "scientificName": "Sphyrna lewini",
+            "taxonRank": "species",
+            "taxonID": 37019001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37019001"
+        },
+        {
+            "family": "Pomacanthidae",
+            "genus": "Apolemichthys",
+            "species": "trimaculatus",
+            "scientificName": "Apolemichthys trimaculatus",
+            "taxonRank": "species",
+            "taxonID": 37365016,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37365016"
+        },
+        {
+            "family": "Cirrhitidae",
+            "genus": "Cirrhitichthys",
+            "species": "falco",
+            "scientificName": "Cirrhitichthys falco",
+            "taxonRank": "species",
+            "taxonID": 37374003,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37374003"
+        },
+        {
+            "family": "Muraenidae",
+            "genus": "Gymnothorax",
+            "species": "nudivomer",
+            "scientificName": "Gymnothorax nudivomer",
+            "taxonRank": "species",
+            "taxonID": 37060047,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37060047"
+        },
+        {
+            "family": "Rhynchobatidae",
+            "genus": "Rhynchobatus",
+            "species": "australiae",
+            "scientificName": "Rhynchobatus australiae",
+            "taxonRank": "species",
+            "taxonID": 37026005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37026005"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Epinephelus",
+            "species": "morrhua",
+            "scientificName": "Epinephelus morrhua",
+            "taxonRank": "species",
+            "taxonID": 37311151,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311151"
+        },
+        {
+            "family": "Sparidae",
+            "genus": "Chrysophrys",
+            "species": "auratus",
+            "scientificName": "Chrysophrys auratus",
+            "taxonRank": "species",
+            "taxonID": 37353001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37353001"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Choerodon",
+            "species": "vitta",
+            "scientificName": "Choerodon vitta",
+            "taxonRank": "species",
+            "taxonID": 37384006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384006"
+        },
+        {
+            "family": "Muraenidae",
+            "genus": "Gymnothorax",
+            "species": "prionodon",
+            "scientificName": "Gymnothorax prionodon",
+            "taxonRank": "species",
+            "taxonID": 37060049,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37060049"
+        },
+        {
+            "family": "Caesionidae",
+            "genus": "Caesio",
+            "species": "cuning",
+            "scientificName": "Caesio cuning",
+            "taxonRank": "species",
+            "taxonID": 37346018,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37346018"
+        },
+        {
+            "family": "Pinguipedidae",
+            "genus": "Parapercis",
+            "species": "clathrata",
+            "scientificName": "Parapercis clathrata",
+            "taxonRank": "species",
+            "taxonID": 37390013,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37390013"
+        },
+        {
+            "family": "Glaucosomatidae",
+            "genus": "Glaucosoma",
+            "species": "buergeri",
+            "scientificName": "Glaucosoma buergeri",
+            "taxonRank": "species",
+            "taxonID": 37320001,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37320001"
+        },
+        {
+            "family": "Haemulidae",
+            "genus": "Plectorhinchus",
+            "species": "gibbosus",
+            "scientificName": "Plectorhinchus gibbosus",
+            "taxonRank": "species",
+            "taxonID": 37350012,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37350012"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Prionace",
+            "species": "glauca",
+            "scientificName": "Prionace glauca",
+            "taxonRank": "species",
+            "taxonID": 37018004,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018004"
+        },
+        {
+            "family": "Labridae",
+            "genus": "Choerodon",
+            "species": "cauteroma",
+            "scientificName": "Choerodon cauteroma",
+            "taxonRank": "species",
+            "taxonID": 37384005,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37384005"
+        },
+        {
+            "family": "Tetraodontidae",
+            "genus": "Arothron",
+            "species": "stellatus",
+            "scientificName": "Arothron stellatus",
+            "taxonRank": "species",
+            "taxonID": 37467014,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37467014"
+        },
+        {
+            "family": "Nemipteridae",
+            "genus": "Scolopsis",
+            "species": "monogramma",
+            "scientificName": "Scolopsis monogramma",
+            "taxonRank": "species",
+            "taxonID": 37347006,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37347006"
+        },
+        {
+            "family": "Serranidae",
+            "genus": "Epinephelus",
+            "species": "coioides",
+            "scientificName": "Epinephelus coioides",
+            "taxonRank": "species",
+            "taxonID": 37311007,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37311007"
+        },
+        {
+            "family": "Muraenidae",
+            "genus": "Uropterygius",
+            "species": "concolor",
+            "scientificName": "Uropterygius concolor",
+            "taxonRank": "species",
+            "taxonID": 37060061,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37060061"
+        },
+        {
+            "family": "Carcharhinidae",
+            "genus": "Carcharhinus",
+            "species": "tilstoni",
+            "scientificName": "Carcharhinus tilstoni",
+            "taxonRank": "species",
+            "taxonID": 37018014,
+            "taxonIDReference": "https://www.marine.csiro.au/data/caab/taxon_report.cfm?caab_code=37018014"
+        }
+    ],
+    "relatedIdentifiers": [],
+    "references": []
+}
